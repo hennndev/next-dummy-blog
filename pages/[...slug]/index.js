@@ -16,7 +16,7 @@ const Slug = () => {
                 {filteredData.length < 1 && router.query.slug[2] !== 'All' && 
                     (
                         <div className="text-center font-semibold text-lg">
-                            <p>Ooppsss, Can't find blogs...</p>
+                            <p>Ooppsss, Cannot find blogs...</p>
                         </div>
                     )
                 }
