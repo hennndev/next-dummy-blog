@@ -9,7 +9,7 @@ const BlogId = () => {
         return (
             <div className="sm:container sm:mx-auto my-10 mx-5">
                 <div className="w-full h-xl">
-                    <img src={blog.img} className="w-full h-full object-cover"/>
+                    <img src={blog.img} className="w-full h-full object-cover" alt={blog.title}/>
                 </div>
                 <div className="mt-3 flex items-center justify-between">
                     <p>{new Date().toDateString()}</p>
