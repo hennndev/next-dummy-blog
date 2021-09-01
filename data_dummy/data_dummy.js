@@ -29,7 +29,7 @@ export const dataDummy = [
         id: 'blog4',
         img: '/images/japan.jpg',
         author: 'Tasya',
-        category: 'Language Knowledge',
+        category: 'Knowledge',
         title: 'Cara Mudah Belajar Bahasa Jepang 2021',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus semper tempus feugiat. Morbi posuere metus eget eros dignissim, non hendrerit tellus dapibus. Sed euismod metus nisl. Donec id nunc sit amet ante semper dictum id facilisis lectus. Praesent quam ante, fringilla quis risus vitae, faucibus viverra nisi. Duis ut tempor nisi. Suspendisse tortor mauris, interdum vitae volutpat vel, tincidunt a erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc rhoncus aliquet diam, sit amet efficitur orci dictum eu. Nunc laoreet ante eget lorem gravida interdum. Aenean aliquam mi lectus, non elementum lacus sagittis aliquam. Cras et diam rhoncus, convallis arcu nec, aliquet arcu. Duis nec metus tempor neque faucibus hendrerit sit amet id libero. Cras posuere est fringilla congue dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae Donec eros lacus, pretium at tortor quis, dapibus viverra magna. Aenean arcu diam, posuere vel nunc dapibus, tempus hendrerit sapien. Aenean sodales semper dolor, dignissim luctus libero dictum vitae. Nunc eu est sed arcu aliquet vulputate. Ut a ultricies justo. Praesent sagittis molestie leo, id accumsan justo scelerisque vitae. Nulla facilisi. Suspendisse eu lorem condimentum, tempus lectus nec, elementum urna. Proin pretium massa lacus.',     
     },

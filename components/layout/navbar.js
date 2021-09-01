@@ -10,17 +10,17 @@ const Navbar = () => {
                 </div>
                 <nav>
                     <ul className="hidden sm:flex jusitfy-between items-center">
-                        <li className="px-4">
-                            <Link href="/">
+                        <li className="px-2 text-md">
+                            <Link href="/blogs">
                                 <a>Blogs</a>
                             </Link>
                         </li>
-                        <li className="px-4">
+                        <li className="px-2 text-md">
                             <Link href="/about">
                                 <a>About</a>
                             </Link>
                         </li>
-                        <li className="px-4">
+                        <li className="px-2 text-md">
                             <Link href="/contact">
                                 <a>Contact</a>
                             </Link>
