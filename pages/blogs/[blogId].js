@@ -11,12 +11,18 @@ const BlogId = () => {
                 <div className="w-full h-xl">
                     <img src={blog.img} className="w-full h-full object-cover"/>
                 </div>
+                <div className="mt-3 flex items-center justify-between">
+                    <p>{new Date().toDateString()}</p>
+                    <p>{blog.author}</p>
+                </div>
                 <div className="mt-5">
-                    <h2 className="font-bold text-xl">{blog.title}</h2>
-                    <p>{blog.desc}</p>
+                    <h2 className="font-bold text-2xl mb-4">{blog.title}</h2>
+                    <p className="text-gray-700">{blog.desc}</p>
                 </div>
                 <div className="mt-4">
-                    <button onClick={() => router.push('/blogs')} className="bg-gray-500 px-5 py-2 rounded-md text-white cursor-pointer">Get Back</button>
+                    <button onClick={() => router.push('/blogs')} 
+                        className="bg-gray-600 hover:bg-gray-700 px-5 py-2 rounded-md text-white cursor-pointer">Get Back
+                    </button>
                 </div>
             </div>
         )

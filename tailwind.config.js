@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
         height: {
-          xl: '400px'
+          xl: '500px'
         },
         gridTemplateColumns: {
           'auto-fill': 'repeat(auto-fill, minmax(250px, 1fr))',

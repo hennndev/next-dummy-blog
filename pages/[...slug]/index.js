@@ -12,11 +12,18 @@ const Slug = () => {
         return (
             <div className="sm:container mx-auto">
                 <Categories/>
-                <Blogs data={router.query.slug[2] === 'All' ? dataDummy : filteredData}/>
+                <Blogs data={router.query.slug[2] === 'All' ? dataDummy : filteredData}/> 
+                {filteredData.length < 1 && router.query.slug[2] !== 'All' && 
+                    (
+                        <div className="text-center font-semibold text-lg">
+                            <p>Ooppsss, Can't find blogs...</p>
+                        </div>
+                    )
+                }
             </div>
         )
     } else {
-        return <p>Loading....</p>
+        return <p>Loading...</p>
     }
     
     
